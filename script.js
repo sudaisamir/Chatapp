@@ -21,7 +21,7 @@
   // const logoutBtn = document.getElementById("loginWithGooglebtn")
   const logoutBtn = document.getElementById("logoutBtn")
   const currentPageName = window.location.pathname.split("/").pop(); 
-  co
+  
   const  onLoad = () =>{
     onAuthStateChanged(auth, (user) => {
     if (user) {
